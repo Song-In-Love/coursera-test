@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+} 
+section {
+  clear: right;
+}
+
+h1#title-text{
+  font-size : 175%;
+  text-align: center; 
+  padding: 20px;
+  margin: 10px;
+}
+.menu-box {
+  position: relative; 
+  height:100px;
+  border: 1px solid green;
+  background: rgba(130, 95, 57, 0.5); 
+  padding:30px 10px 5px 10px;
+  margin: 15px;
+  overflow: hidden;
+} 
+.menu-title {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  text-align: center;
+  border: 1px solid green;
+  width: 100px; 
+  font-size: 125%;
+  overflow: auto;
+}
+#menu1{
+  background: rgb(245, 168, 168);
+color: slategrey;
+}
+
+#menu2{
+  background: rgb(48, 7, 7);
+color: rgb(221, 222, 222);
+}
+
+#menu3{
+  background: rgb(106, 141, 111);
+color: rgb(10, 34, 5);
+}
+
+.row {
+  padding:10px;
+  width: 100%; 
+}
+
+/********** desktop devices only **********/
+@media (min-width: 992px) {
+.row{
+  padding: 15px ;
+}
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    float: left; 
+    height: 100%;
+  }
+
+  .col-lg-1 {
+    width: 8.33%;
+  }
+
+  .col-lg-2 {
+    width: 16.66%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-4 {
+    width: 33.33% ;
+  }
+ 
+}
+
+/********** tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) { 
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    float: left; 
+    height:100%;
+  }
+
+  .col-md-1 {
+    width: 8.33%;
+  }
+
+  .col-md-2 {
+    width: 16.66%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+    width: 33.33%;
+  }
+
+  .col-md-5 {
+    width: 41.66%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-7 {
+    width: 58.33%;
+  }
+
+  .col-md-8 {
+    width: 66.66%;
+  }
+
+  .col-md-9 {
+    width: 74.99%;
+  }
+
+  .col-md-10 {
+    width: 83.33%;
+  }
+
+  .col-md-11 {
+    width: 91.66%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left; 
+    width: 100%;  
+  }
+
+}
